@@ -1,0 +1,20 @@
+$coral: #ff4343;
+$darkgrey: #2d3033;
+$grey: #6c7279;
+$white: #ffffff;
+$black: #252b49;
+
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css';
+@import './firstscreen.scss';
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+.container {
+  max-width: 73.125rem;
+  padding: 0 0.9375rem;
+  margin: 0 auto;
+}
